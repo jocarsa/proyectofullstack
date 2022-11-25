@@ -1,0 +1,80 @@
+/* Esto es un comentario */
+            /*
+            selector{
+                atributo:valor;
+                atributo:valor;
+                ...
+            }
+            punto = clase
+            almohadilla (hashtag) = id
+            */
+            h2{color:green;}
+            body{
+                background:rgb(220,220,220);
+                font-family:sans-serif;
+            }
+            header,main,footer{
+                background:white;
+                width:800px;
+                margin:auto;
+                margin-bottom:0px;
+                margin-top:0px;
+                padding:10px;
+            }
+            header img{
+                width:100px;
+                float:left;
+                margin-right:20px;
+            }
+            h1,h2{padding:0px;margin:0px;}
+            h2{
+                font-size:10px;
+                font-weight:normal;
+            }
+            nav ul{
+                list-style-type:none;
+                padding:0px;
+                margin:0px;
+            }
+            nav ul li{
+                float:left;
+                background:black;
+                color:white;
+                padding:5px;
+                margin:1px;
+                width:100px;
+                text-align:center;
+                border:1px solid red;
+                text-transform:uppercase;
+                font-size:10px;
+                font-weight:bold;
+                transition:all 1s;
+            }
+            nav ul li a{
+                text-decoration:none;
+                color:inherit;
+            }
+            nav ul li:hover{
+                background:grey;
+            }
+            #banner{
+                width:100%;
+                height:300px;
+                background:rgb(150,150,255);
+            }
+            main #banner h3{
+                text-align:center;
+                padding:10px;
+                color:white;
+                font-size:40px;
+            }
+            main #noticias article{
+                width:33.3%;
+                float:left;
+            }
+            main #noticias article img{
+                width:100%;
+            }
+            .clearfix{
+                clear:both;
+            }

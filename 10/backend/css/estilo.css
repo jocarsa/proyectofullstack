@@ -1,0 +1,33 @@
+html,body{
+    background:rgb(220,220,220);
+}
+#login{
+    width:200px;
+    height:220px;
+    margin:auto;
+    background:white;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+}
+input,button{
+    width:100%; 
+    padding:0px;
+    margin:0px;
+    margin-bottom:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    outline:none;
+    transition:all 1s;
+    border:1px solid grey;
+}
+input:focus{
+    background:rgb(255,255,220);
+}
+input{
+    width:98%;
+}
+img{
+    width:50%;
+}
